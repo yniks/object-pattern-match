@@ -4,9 +4,13 @@
   "description": "",
   "main": "pattern-match.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docify": "typedoc --out docs  --theme node_modules/typedoc-clarity-theme/bin"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "typedoc-clarity-theme": "^1.1.0"
+  }
 }
