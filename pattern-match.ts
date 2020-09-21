@@ -1,8 +1,8 @@
 const EQ_LEVEL=(a:any,b:any)=>a==b
-type pattern=RegExp|string|Function|{
+export type pattern=RegExp|string|Function|{
     [key:string]:pattern
 }
-type target=string|Function|{
+export type target=string|Function|{
     [key:string]:target
 }
 function primitive(pattern:pattern,object:target,root:Object|null){

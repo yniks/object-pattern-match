@@ -1,7 +1,7 @@
-declare type pattern = RegExp | string | Function | {
+export declare type pattern = RegExp | string | Function | {
     [key: string]: pattern;
 };
-declare type target = string | Function | {
+export declare type target = string | Function | {
     [key: string]: target;
 };
 /**
@@ -13,5 +13,4 @@ declare type target = string | Function | {
  * `tip:` `symbol` keys can be used to save and transfer state in the pattern itself and can be utilized by functions in pattern to cre4aqte powerfull state based pattern systems
  */
 export declare function match(pattern: pattern, object: target, root?: Object | null): boolean;
-export {};
 //# sourceMappingURL=pattern-match.d.ts.map

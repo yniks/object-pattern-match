@@ -5,7 +5,7 @@
   "main": "js/pattern-match.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "docify": "typedoc --out docs  --theme node_modules/typedoc-clarity-theme/bin"
+    "docify": "typedoc --out docs  --theme node_modules/typedoc-clarity-theme/bin && touch docs/.nojekyl"
   },
   "keywords": [],
   "author": "",

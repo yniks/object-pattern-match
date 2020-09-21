@@ -32,3 +32,4 @@
         };
   matcher(pattern,dummyTarget) //true
 ```
+## TODO: add tests
