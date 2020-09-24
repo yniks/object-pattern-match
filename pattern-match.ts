@@ -1,5 +1,5 @@
 const EQ_LEVEL=(a:any,b:any)=>a==b
-export type pattern=RegExp|string|Function|{
+export type pattern=RegExp|string|Function|number|{
     [key:string]:pattern
 }
 export type target=string|Function|{

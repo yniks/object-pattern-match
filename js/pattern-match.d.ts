@@ -1,4 +1,4 @@
-export declare type pattern = RegExp | string | Function | {
+export declare type pattern = RegExp | string | Function | number | {
     [key: string]: pattern;
 };
 export declare type target = string | Function | {
